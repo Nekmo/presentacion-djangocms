@@ -83,6 +83,9 @@ Qué ofrece Django
   * **Vistas** (controlador)) genéricas POO.
   
 * Sistema de **urls**.
+
+----
+
 * **Localización** (l10n) e **Internacionalización** (i18n)
 * **Middleware**, que controla la entrada y salida.
 * Sistema de **usuarios y permisos**.
