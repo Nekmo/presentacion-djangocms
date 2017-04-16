@@ -83,7 +83,54 @@ Qué ofrece Django
   * **Vistas** (controlador)) genéricas POO.
   
 * Sistema de **urls**.
+* **Localización** (l10n) e **Internacionalización** (i18n)
 * **Middleware**, que controla la entrada y salida.
 * Sistema de **usuarios y permisos**.
 * Medidas de **seguridad** integradas (XSS, CSRF, SQL Inj., clickjacking...).
 * Panel de **administración** de datos.
+
+----
+
+Pero falta algo...
+==================
+
+.. note::
+    No obstante, entre estas herramientas faltaba para algo que ya existía-
+    
+----
+
+CMS
+===
+
+.. note::
+    Herramientas para CMS. Y aquí es donde llega Django CMS.
+
+----
+
+Django CMS
+==========
+
+.. note::
+    Django CMS. Completa a Django como framework con herramientas para la gestión de contenido.
+    
+----
+
+Respetuoso con Django
+=====================
+
+.. note::
+    Si con Django es posible crear apps en minutos, con Django CMS es posible añadirle gestión de
+    contenido, con muy pocos cambios.
+    
+----
+
+Qué incluye Django CMS
+======================
+
+* Sistema de *menús jerárquico* y *multiidioma*.
+* Gestión y creación de *páginas*.
+* *Borradores y publicación* de contenido.
+* Sistema de *versiones*.
+* *Contenido multiidioma* y condicionado por el mismo.
+* Gestión de los *Apphooks* y los *plugins* (que hablaremos más adelante).
+
