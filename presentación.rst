@@ -60,6 +60,7 @@ Django y Ruby On Rails
 Qué son los frameworks
 ======================
 Herramientas y normas de trabajo, para:
+
 * Código más reutilizable.
 * Código de mejor calidad.
 * Software más seguro.
@@ -76,9 +77,11 @@ Qué ofrece Django
 =================
 
 * Patrón Modelo-Vista-Controlador (MVC) con:
-** Sistema **ORM** propio.
-** Lenguaje de **plantillas** HTML propio.
-** **Vistas** (controlador)) genéricas POO.
+
+  * Sistema **ORM** propio.
+  * Lenguaje de **plantillas** HTML propio.
+  * **Vistas** (controlador)) genéricas POO.
+  
 * Sistema de **urls**.
 * **Middleware**, que controla la entrada y salida.
 * Sistema de **usuarios y permisos**.
