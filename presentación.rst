@@ -139,7 +139,22 @@ Respetuoso con Django
 Qué incluye Django CMS
 ======================
 
-* Sistema de *menús jerárquico* y *multiidioma*.
+----
+
+:id: djangocms-menus
+
+.. raw:: html
+
+    <video loop data-for="djangocms-menus">
+        <source src="resources/djangocms_menus.mkv" type="video/mp4">
+    </video>
+
+----
+
+Sistema de menús jerárquico y multiidioma
+-----------------------------------------
+
+
 * Gestión y creación de *páginas*.
 * *Borradores y publicación* de contenido.
 * Sistema de *versiones*.
