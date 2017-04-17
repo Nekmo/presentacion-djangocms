@@ -57,6 +57,15 @@ Django y Ruby On Rails
     
 ----
 
+Django
+======
+
+.. note::
+    Pero me centraré en Django. Y lo haré antes que Django CMS, porque todas sus ventajas, son también
+    aplicables a Django CMS. Al igual que Ruby On Rails, es un framework web.
+
+----
+
 Qué son los frameworks
 ======================
 Herramientas y normas de trabajo, para:
