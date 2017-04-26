@@ -2,83 +2,78 @@ Django CMS
 ##########
 
 .. note::
-    Buenas a todos. Es fácil que muchos aquí hayáis venido esperando un CMS llamado Django CMS, sin haber
-    escuchado antes de Django. Un CMS como...
-    
-----
+    Buenas a todos. Es fácil que muchos aquí hayáis venido tentados por la palabra CMS, sin haber tocado
+    previamente Django. Para todos aquellos, haré una pequeña introducción.
 
-.. image:: cms-logos.jpg
-
-.. note::
-    estos otros de aquí.
-
-----
-
-.. note::
-    Pero Django CMS no es CMS como tal. Son herramientas de CMS para Django. Y perdonadme que antes de
-    continuar, tenga que hacer una introducción en Django. Prometo ser breve. Y lo hare partiendo de 
-    los mismos CMS.
-    
-----
-
-2005
-====
-
-.. note::
-    2005. Los CMS son muy populares por permitir crear una web en segundos a cualquiera, y uno de los 
-    lenguajes más beneficiados es PHP.
-    
-----
-
-PHP 4.x
-=======
-
-.. note::
-    No quiero entrar en si PHP es mejor o peor. Pero creo que todos estaremos de acuerdo, en que en pleno
-    2005, programar en PHP, era una, perdón, - mierda.
-    
-----
-
-Un nuevo comienzo
-=================
-
-.. note::
-    La web todavía estaba en pañales y necesitaba de herramientas para madurar. 2 empresas vieron el
-    mismo problema y tomaron 2 caminos diferentes. De ahí nacieron -
-    
-----
-
-Django y Ruby On Rails
-======================
-
-.. note::
-    Django y Ruby On Rails. No digo que fueron los únicos, pero sí de los más icónicos y software libre.
-    Y como muestra su buena salud, que perdura a día de hoy.
-    
 ----
 
 Django
 ======
 
-.. note::
-    Pero me centraré en Django. Y lo haré antes que Django CMS, porque todas sus ventajas, son también
-    aplicables a Django CMS. Al igual que Ruby On Rails, es un framework web.
+Framework de desarrollo web.
+
+(es decir, te toca picar código).
+
 
 ----
 
-Qué son los frameworks
-======================
-Herramientas y normas de trabajo, para:
+Django permite a los PROGRAMADORES crear sitios web profesionales en muy poco tiempo.
+
+(ayuda a programar webs a medida)
+
+----
+
+Pero... ¿y Django CMS? ¿Los CMS no eran "automágicos" y no necesitas programar nada?
+
+gif magia
+
+----
+
+Los **CMS** no son *magia*, sino **gestores de contenido** (Content Management System).
+
+Pero ya llegaremos a eso...
+
+----
+
+Framework
+=========
+Y eso significa...
+
+Herramientas unificadas y normas de trabajo para un correcto desarrollo.
+
+(es decir, programar sin crear un frankenstein con snippets de Stack Overflow).
+
+.. note::
+
+    Django, como framework que es, es un conjunto de herramientas y normas de trabajo
+    para el correcto desarrollo de un sitio web. - lo cual es bueno para los programadores
+
+----
+
+Ventajas
+--------
 
 * Código más reutilizable.
 * Código de mejor calidad.
 * Software más seguro.
 * Desarrollo más rápido.
 
-.. note::
-    A diferencia de la programación habitual en PHP de entonces, que estaba poco o nada unificada, estos
-    frameworks creaban unas directrices de trabajo y otorgaban de herramientas que estaban unidas entre
-    sí. Esto otorgaba:
+----
+
+Por tanto:
+
+Django (y Django CMS) son una buena solución cuando necesitas una web profesional a medida.
+
+Y algunos ejemplos son:
+
+----
+
+================================  =====================================  ================================
+Nasa                              Washington Post                        Pinterest
+.. image:: imgs/nasa.png          .. image:: imgs/washington-post.png    .. image:: imgs/pinterest.png
+Firefox                           Disqus                                 Bitbucket
+.. image:: imgs/firefox.png       .. image:: imgs/disqus.png             .. image:: imgs/bitbucket.png
+================================  =====================================  ================================
 
 ----
 
@@ -107,8 +102,9 @@ Pero falta algo...
 ==================
 
 .. note::
-    No obstante, entre estas herramientas faltaba para algo que ya existía-
-    
+    No obstante, entre estas herramientas faltaba para algo que ya existía
+
+
 ----
 
 CMS
@@ -143,6 +139,9 @@ Qué incluye Django CMS
 
 :id: djangocms-menus
 
+Gestión y creación de páginas
+-----------------------------
+
 .. raw:: html
 
     <video loop data-for="djangocms-menus">
@@ -151,13 +150,50 @@ Qué incluye Django CMS
 
 ----
 
-Sistema de menús jerárquico y multiidioma
------------------------------------------
+Borradores y publicación de contenido
+-------------------------------------
 
+.. raw:: html
 
-* Gestión y creación de *páginas*.
-* *Borradores y publicación* de contenido.
-* Sistema de *versiones*.
+    <video loop data-for="djangocms-contenido">
+        <source src="resources/djangocms_contenido.mkv" type="video/mp4">
+    </video>
+
+----
+
+Sistema de versiones
+--------------------
+
+.. raw:: html
+
+    <video loop data-for="djangocms-undo">
+        <source src="resources/djangocms_undo.mkv" type="video/mp4">
+    </video>
+
+----
+
+Páginas en diferentes idiomas
+-----------------------------
+
+.. raw:: html
+
+    <video loop data-for="djangocms-idiomas">
+        <source src="resources/djangocms_idiomas.mkv" type="video/mp4">
+    </video>
+
+----
+
+Uso de plugins
+--------------
+
+.. raw:: html
+
+    <video loop data-for="djangocms-idiomas">
+        <source src="resources/djangocms_idiomas.mkv" type="video/mp4">
+    </video>
+
+----
+
 * *Contenido multiidioma* y condicionado por el mismo.
 * Gestión de los *Apphooks* y los *plugins* (que hablaremos más adelante).
 
