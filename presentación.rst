@@ -150,6 +150,8 @@ Gestión y creación de páginas
 
 ----
 
+:id: djangocms-contenido
+
 Borradores y publicación de contenido
 -------------------------------------
 
@@ -160,6 +162,8 @@ Borradores y publicación de contenido
     </video>
 
 ----
+
+:id: djangocms-undo
 
 Sistema de versiones
 --------------------
@@ -172,6 +176,8 @@ Sistema de versiones
 
 ----
 
+:id: djangocms-idiomas
+
 Páginas en diferentes idiomas
 -----------------------------
 
@@ -183,13 +189,15 @@ Páginas en diferentes idiomas
 
 ----
 
+:id: djangocms-plugins
+
 Uso de plugins
 --------------
 
 .. raw:: html
 
-    <video loop data-for="djangocms-idiomas">
-        <source src="resources/djangocms_idiomas.mkv" type="video/mp4">
+    <video loop data-for="djangocms-plugins">
+        <source src="resources/djangocms_plugins.mkv" type="video/mp4">
     </video>
 
 ----
