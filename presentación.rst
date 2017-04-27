@@ -25,7 +25,7 @@ Django permite a los PROGRAMADORES crear sitios web profesionales en muy poco ti
 
 Pero... ¿y Django CMS? ¿Los CMS no eran "automágicos" y no necesitas programar nada?
 
-gif magia
+.. image:: imgs/magic.gif
 
 ----
 
@@ -148,9 +148,11 @@ Gestión y creación de páginas
         <source src="resources/djangocms_menus.mkv" type="video/mp4">
     </video>
 
+
 ----
 
 :id: djangocms-contenido
+
 
 Borradores y publicación de contenido
 -------------------------------------
