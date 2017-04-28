@@ -1,7 +1,14 @@
-Django CMS
-##########
+.. title: DjangoCMS
+
+:data-transition-duration: 500
+
+----
 
 :id: inicio
+
+.. image:: imgs/djangocms_logo.png
+
+Sistema de CMS para Django
 
 .. note::
     Buenas a todos. Es fácil que muchos aquí hayáis venido tentados por la palabra CMS, sin haber tocado
@@ -11,29 +18,43 @@ Django CMS
 
 :id: django
 
-Django
-======
+.. image:: imgs/django_logo.png
 
 Framework de desarrollo web.
 
 (es decir, te toca picar código).
 
+.. note::
+    Django es lo que se denomina un framework para el desarrollo web.
 
 ----
 
 :id: django-programadores
 
-Django permite a los PROGRAMADORES crear sitios web profesionales en muy poco tiempo.
+Para desarrolladores
+--------------------
+
+Django permite a los **PROGRAMADORES** crear sitios web profesionales en muy poco tiempo.
 
 (ayuda a programar webs a medida)
+
+.. note::
+
+    Es decir, está orientado a la creación de nuevos sitios profesionales. OFrece las
+    herramientas para trabajar.
 
 ----
 
 :id: django-magia
 
-Pero... ¿y Django CMS? ¿Los CMS no eran "automágicos" y no necesitas programar nada?
+Pero... ¿y Django CMS? ¿Los CMS no eran *"automágicos"* y no necesitas programar nada?
 
 .. image:: imgs/magic.gif
+
+.. note::
+
+    Ahora puede que algo os estéis preguntando. ¿Programar? ¿Pero los CMS no iban
+    de crear sitios sin tener ni idea?
 
 ----
 
@@ -42,6 +63,11 @@ Pero... ¿y Django CMS? ¿Los CMS no eran "automágicos" y no necesitas programa
 Los **CMS** no son *magia*, sino **gestores de contenido** (Content Management System).
 
 Pero ya llegaremos a eso...
+
+.. note::
+
+    Aunque es común la confusión, en realidad CMS viene de Content Management System, o lo
+    que es lo mismo, gestores de contenido.
 
 ----
 
@@ -57,8 +83,8 @@ Herramientas unificadas y normas de trabajo para un correcto desarrollo.
 
 .. note::
 
-    Django, como framework que es, es un conjunto de herramientas y normas de trabajo
-    para el correcto desarrollo de un sitio web. - lo cual es bueno para los programadores
+    Volviendo a Django con los frameworks, un framework es un conjunto de herramientas
+    unificadas para el desarrollo.
 
 ----
 
@@ -67,10 +93,14 @@ Herramientas unificadas y normas de trabajo para un correcto desarrollo.
 Ventajas
 --------
 
-* Código más reutilizable.
-* Código de mejor calidad.
-* Software más seguro.
-* Desarrollo más rápido.
+* Código más **reutilizable**.
+* Código de mejor **calidad**.
+* Software más **seguro**.
+* Desarrollo más **rápido**.
+
+.. note::
+
+    Esto trae muchas ventajas, como las que tenéis aquí: ....
 
 ----
 
@@ -81,6 +111,9 @@ Por tanto:
 Django (y Django CMS) son una buena solución cuando necesitas una web profesional a medida.
 
 Y algunos ejemplos son:
+
+.. note::
+    Y como muestra de su éxito, aquí tenéis algunos sitios que usan Django:
 
 ----
 
@@ -107,6 +140,12 @@ Qué ofrece Django
   * **Vistas** (controlador)) genéricas POO.
   
 * Sistema de **urls**.
+
+.. note::
+
+    Perdonad que me enrrolle, pero al ser Django CMS unos módulos para Django, debo
+    seguir hablando de él. Al ser todas las características de Django también
+    aplicables a Django CMS, repasaré brevemente sus bondades: ...
 
 ----
 
@@ -236,6 +275,5 @@ Uso de plugins
 
 ----
 
-* *Contenido multiidioma* y condicionado por el mismo.
 * Gestión de los *Apphooks* y los *plugins* (que hablaremos más adelante).
 

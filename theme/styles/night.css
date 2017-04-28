@@ -8,15 +8,17 @@
 @font-face {
   font-family: Yellowtail-Regular;
   src: url(../fonts/Yellowtail-Regular.ttf); }
+
 @font-face {
   font-family: ShareTechMono-Regular;
   src: url(../fonts/ShareTechMono-Regular.ttf); }
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #111;
-  background-color: #111; }
+  background: #103E2E;
+  background-color: #103E2E; }
 
 #impress {
   font-family: "Open Sans", sans-serif;
@@ -242,5 +244,3 @@ body {
  *********************************************/
 #impress .slide-number {
   color: #e7ad52; }
-
-/*# sourceMappingURL=night.css.map */
