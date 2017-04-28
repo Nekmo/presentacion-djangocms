@@ -137,7 +137,7 @@ Qué ofrece Django
 
   * Sistema **ORM** propio.
   * Lenguaje de **plantillas** HTML propio.
-  * **Vistas** (controlador)) genéricas POO.
+  * **Vistas** (controlador) genéricas POO.
   
 * Sistema de **urls**.
 
@@ -211,6 +211,9 @@ Bloques para plugins
 
 .. image:: imgs/menus.png
 
+.. note:: En vez de widgets, como se llamarían en otros CMS, Django CMS tiene plugins. Éstos
+    se colocan en secciones llamadas placeholders, que podremos poner donde queramos en
+    nuestros diseños. Los plugins pueden añadirse, reordenarse y quitarse a voluntad.
 
 ----
 
@@ -225,6 +228,9 @@ Edición de contenido
         <source src="resources/djangocms_editar.mkv" type="video/mp4">
     </video>
 
+.. note:: Poniendo el contenido en un bloque específico en el template, éste será modificable
+    en modo administrador.
+
 ----
 
 Por qué Django CMS
@@ -234,23 +240,12 @@ Por qué Django CMS
 
 ----
 
-* Gran soporte para internacionalización
-* Muy extensible y modular
-* Respetuoso con Django.
-* Más opciones de personalización.
-* Es el más popular y con mejor soporte.
+* Gran soporte para **internacionalización**.
+* Muy **extensible** y **modular**.
+* Aprovecha y **no sustituye** a Django.
+* Más opciones de **personalización**.
+* Es el más **popular** y con mejor **soporte**.
 
-----
-
-:id: django-cms-respetuoso
-
-Respetuoso con Django
-=====================
-
-.. note::
-    Si con Django es posible crear apps en minutos, con Django CMS es posible añadirle gestión de
-    contenido, con muy pocos cambios.
-    
 ----
 
 :id: django-cms-caracteristicas
@@ -274,7 +269,6 @@ Gestión y creación de páginas
 ----
 
 :id: djangocms-contenido
-
 
 Borradores y publicación de contenido
 -------------------------------------
