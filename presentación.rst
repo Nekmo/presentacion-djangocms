@@ -20,7 +20,7 @@ Sistema de CMS para Django
 
 .. image:: imgs/django_logo.png
 
-Framework de desarrollo web.
+Framework de desarrollo web en Python.
 
 (es decir, te toca picar código).
 
@@ -40,7 +40,7 @@ Django permite a los **PROGRAMADORES** crear sitios web profesionales en muy poc
 
 .. note::
 
-    Es decir, está orientado a la creación de nuevos sitios profesionales. OFrece las
+    Es decir, está orientado a la creación de nuevos sitios profesionales. Ofrece las
     herramientas para trabajar.
 
 ----
@@ -145,7 +145,7 @@ Qué ofrece Django
 
     Perdonad que me enrrolle, pero al ser Django CMS unos módulos para Django, debo
     seguir hablando de él. Al ser todas las características de Django también
-    aplicables a Django CMS, repasaré brevemente sus bondades: ...
+    aplicables a Django CMS, repasaré brevemente *sus bondades*: ...
 
 ----
 
@@ -165,8 +165,7 @@ Pero falta algo...
 ==================
 
 .. note::
-    No obstante, entre estas herramientas faltaba para algo que ya existía
-
+    No obstante, entre estas herramientas falta algo.
 
 ----
 
@@ -187,7 +186,60 @@ Django CMS
 
 .. note::
     Django CMS. Completa a Django como framework con herramientas para la gestión de contenido.
-    
+    Como por ejemplo ...
+
+----
+
+:id: menu
+
+Menú
+====
+
+.. image:: imgs/bloques-plugins.png
+
+.. note:: Django CMS nos incluye un sistema para construir menús para nuestras apps. Con
+    submenús y mucho más.
+
+----
+
+:id: bloques-plugins
+
+Bloques para plugins
+====================
+
+(lo que en otros sistemas se denominan widgets)
+
+.. image:: imgs/menus.png
+
+
+----
+
+:id: edicion-contenido
+
+Edición de contenido
+====================
+
+.. raw:: html
+
+    <video loop data-for="edicion-contenido">
+        <source src="resources/djangocms_editar.mkv" type="video/mp4">
+    </video>
+
+----
+
+Por qué Django CMS
+==================
+
+¿Y no otro CMS para Django, como Wagtail o Mezzanine?
+
+----
+
+* Gran soporte para internacionalización
+* Muy extensible y modular
+* Respetuoso con Django.
+* Más opciones de personalización.
+* Es el más popular y con mejor soporte.
+
 ----
 
 :id: django-cms-respetuoso
@@ -218,7 +270,6 @@ Gestión y creación de páginas
     <video loop data-for="djangocms-menus">
         <source src="resources/djangocms_menus.mkv" type="video/mp4">
     </video>
-
 
 ----
 
@@ -275,5 +326,16 @@ Uso de plugins
 
 ----
 
-* Gestión de los *Apphooks* y los *plugins* (que hablaremos más adelante).
+:id: djangocms-apphooks
+
+Uso de Apphooks
+---------------
+
+.. raw:: html
+
+    <video loop data-for="djangocms-apphooks">
+        <source src="resources/djangocms_apphooks.mkv" type="video/mp4">
+    </video>
+
+
 
