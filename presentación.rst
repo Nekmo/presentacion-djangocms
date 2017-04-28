@@ -1,11 +1,15 @@
 Django CMS
 ##########
 
+:id: inicio
+
 .. note::
     Buenas a todos. Es fácil que muchos aquí hayáis venido tentados por la palabra CMS, sin haber tocado
     previamente Django. Para todos aquellos, haré una pequeña introducción.
 
 ----
+
+:id: django
 
 Django
 ======
@@ -17,11 +21,15 @@ Framework de desarrollo web.
 
 ----
 
+:id: django-programadores
+
 Django permite a los PROGRAMADORES crear sitios web profesionales en muy poco tiempo.
 
 (ayuda a programar webs a medida)
 
 ----
+
+:id: django-magia
 
 Pero... ¿y Django CMS? ¿Los CMS no eran "automágicos" y no necesitas programar nada?
 
@@ -29,11 +37,15 @@ Pero... ¿y Django CMS? ¿Los CMS no eran "automágicos" y no necesitas programa
 
 ----
 
+:id: cms-magia
+
 Los **CMS** no son *magia*, sino **gestores de contenido** (Content Management System).
 
 Pero ya llegaremos a eso...
 
 ----
+
+:id: framework
 
 Framework
 =========
@@ -50,6 +62,8 @@ Herramientas unificadas y normas de trabajo para un correcto desarrollo.
 
 ----
 
+:id: framework-ventajas
+
 Ventajas
 --------
 
@@ -60,6 +74,8 @@ Ventajas
 
 ----
 
+:id: django-webs
+
 Por tanto:
 
 Django (y Django CMS) son una buena solución cuando necesitas una web profesional a medida.
@@ -67,6 +83,8 @@ Django (y Django CMS) son una buena solución cuando necesitas una web profesion
 Y algunos ejemplos son:
 
 ----
+
+:id: django-webs-2
 
 ================================  =====================================  ================================
 Nasa                              Washington Post                        Pinterest
@@ -76,6 +94,8 @@ Firefox                           Disqus                                 Bitbuck
 ================================  =====================================  ================================
 
 ----
+
+:id: django-ofrece
 
 Qué ofrece Django
 =================
@@ -90,6 +110,8 @@ Qué ofrece Django
 
 ----
 
+:id: django-ofrece-2
+
 * **Localización** (l10n) e **Internacionalización** (i18n)
 * **Middleware**, que controla la entrada y salida.
 * Sistema de **usuarios y permisos**.
@@ -97,6 +119,8 @@ Qué ofrece Django
 * Panel de **administración** de datos.
 
 ----
+
+:id: django-falta
 
 Pero falta algo...
 ==================
@@ -107,6 +131,8 @@ Pero falta algo...
 
 ----
 
+:id: django-falta-cms
+
 CMS
 ===
 
@@ -114,6 +140,8 @@ CMS
     Herramientas para CMS. Y aquí es donde llega Django CMS.
 
 ----
+
+:id: django-cms
 
 Django CMS
 ==========
@@ -123,6 +151,8 @@ Django CMS
     
 ----
 
+:id: django-cms-respetuoso
+
 Respetuoso con Django
 =====================
 
@@ -131,6 +161,8 @@ Respetuoso con Django
     contenido, con muy pocos cambios.
     
 ----
+
+:id: django-cms-caracteristicas
 
 Qué incluye Django CMS
 ======================
