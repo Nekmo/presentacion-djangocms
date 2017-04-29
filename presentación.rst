@@ -341,6 +341,7 @@ Cómo probar Django CMS
 * Pruébalo en la demo: http://try.django-cms.org/
 * Usa el cloud: https://www.divio.com/
 
+
 ----
 
 :id: aldryn-feature-video
@@ -350,3 +351,10 @@ Cómo probar Django CMS
     <video loop data-for="aldryn-feature-video">
         <source src="resources/aldryn_feature_video.mp4" type="video/mp4">
     </video>
+
+
+----
+
+Algunos ejemplos...
+===================
+
