@@ -1,6 +1,8 @@
 .. title: DjangoCMS
 
 :data-transition-duration: 500
+:css: css/presentation.css
+
 
 ----
 
@@ -236,7 +238,7 @@ Edición de contenido
 Por qué Django CMS
 ==================
 
-¿Y no otro CMS para Django, como Wagtail o Mezzanine?
+¿Y no otro CMS para Django, como *Wagtail* o *Mezzanine*?
 
 ----
 
@@ -355,6 +357,18 @@ Cómo probar Django CMS
 
 ----
 
-Algunos ejemplos...
-===================
+:id: django-cms-webs
 
+Quiénes confían en Django CMS...
+================================
+
+================================  =====================================  ================================  ===================================
+.. image:: imgs/logos/nasa.png    .. image:: imgs/logos/natgeo.png       .. image:: imgs/logos/parrot.png  .. image:: imgs/logos/pbs.png
+.. image:: imgs/logos/salt.png    .. image:: imgs/logos/men_expert.png   .. image:: imgs/logos/aamc.png    .. image:: imgs/logos/canonical.png
+================================  =====================================  ================================  ===================================
+
+----
+
+:id: django-cms-salt
+
+.. image:: imgs/salt.png
