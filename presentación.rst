@@ -195,7 +195,7 @@ Django CMS
 Menú
 ====
 
-.. image:: imgs/bloques-plugins.png
+.. image:: imgs/menus.png
 
 .. note:: Django CMS nos incluye un sistema para construir menús para nuestras apps. Con
     submenús y mucho más.
@@ -209,7 +209,7 @@ Bloques para plugins
 
 (lo que en otros sistemas se denominan widgets)
 
-.. image:: imgs/menus.png
+.. image:: imgs/bloques-plugins.png
 
 .. note:: En vez de widgets, como se llamarían en otros CMS, Django CMS tiene plugins. Éstos
     se colocan en secciones llamadas placeholders, que podremos poner donde queramos en
@@ -331,5 +331,22 @@ Uso de Apphooks
         <source src="resources/djangocms_apphooks.mkv" type="video/mp4">
     </video>
 
+----
 
+:id: djangocms-probar
 
+Cómo probar Django CMS
+======================
+
+* Pruébalo en la demo: http://try.django-cms.org/
+* Usa el cloud: https://www.divio.com/
+
+----
+
+:id: aldryn-feature-video
+
+.. raw:: html
+
+    <video loop data-for="aldryn-feature-video">
+        <source src="resources/aldryn_feature_video.mp4" type="video/mp4">
+    </video>
