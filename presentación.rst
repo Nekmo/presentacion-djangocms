@@ -2,7 +2,7 @@
 
 :data-transition-duration: 500
 :css: styles/presentacion.css
-
+:css: styles/monokai.css
 
 ----
 
@@ -369,6 +369,38 @@ Uso de plugins
     <video loop data-for="djangocms-plugins-2">
         <source src="resources/djangocms_plugins.mkv" type="video/mp4">
     </video>
+
+----
+
+:id: djangocms-plugins-3
+
+Placeholder
+===========
+Permite definir dónde irán los plugins *(bloques, widgets)*.
+
+.. code:: htmldjango
+
+     {% block content %}
+     <div class="jumbotron">
+         {% placeholder "feature" %}
+     </div>
+     <div>
+         {% placeholder "content" %}
+     </div>
+     <div>
+         {% placeholder "splashbox" %}
+     </div>
+    {% endblock content %}
+
+    {% block footer %}
+    <div id="footer">
+        {% static_placeholder "footer" %}
+    </div>
+    {% endblock %}
+
+
+.. note::
+    Los placeholder y placeholder_static permiten definir dónde irán los plugins en nuestra página. El argumento entregado define el identificador de placeholder, que permite reutilizarlos entre templates.
 
 ----
 

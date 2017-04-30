@@ -10,14 +10,29 @@
 }
 
 /* Reducir títulos y texto todavía más */
-#bloques-plugins, #djangocms-menus, #djangocms-idiomas,
-#djangocms-plugins, #djangocms-apphooks {
+#bloques-plugins, #djangocms-menus,
+#djangocms-apphooks {
     h1 {
         font-size: 200%;
     }
 
     p, li {
         font-size: 90%
+    }
+}
+
+/* Reducir títulos y texto incluso más */
+#djangocms-plugins, #djangocms-idiomas, #djangocms-plugins-3 {
+    h1 {
+        font-size: 180%;
+    }
+
+    p, li {
+        font-size: 80%;
+    }
+
+    pre {
+        font-size: 50%;
     }
 }
 

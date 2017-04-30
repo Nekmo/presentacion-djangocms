@@ -6,14 +6,24 @@
   font-size: 250%; }
 
 /* Reducir títulos y texto todavía más */
-#bloques-plugins h1, #djangocms-menus h1, #djangocms-idiomas h1,
-#djangocms-plugins h1, #djangocms-apphooks h1 {
+#bloques-plugins h1, #djangocms-menus h1,
+#djangocms-apphooks h1 {
   font-size: 200%; }
 
-#bloques-plugins p, #bloques-plugins li, #djangocms-menus p, #djangocms-menus li, #djangocms-idiomas p, #djangocms-idiomas li,
-#djangocms-plugins p,
-#djangocms-plugins li, #djangocms-apphooks p, #djangocms-apphooks li {
+#bloques-plugins p, #bloques-plugins li, #djangocms-menus p, #djangocms-menus li,
+#djangocms-apphooks p,
+#djangocms-apphooks li {
   font-size: 90%; }
+
+/* Reducir títulos y texto incluso más */
+#djangocms-plugins h1, #djangocms-idiomas h1, #djangocms-plugins-3 h1 {
+  font-size: 180%; }
+
+#djangocms-plugins p, #djangocms-plugins li, #djangocms-idiomas p, #djangocms-idiomas li, #djangocms-plugins-3 p, #djangocms-plugins-3 li {
+  font-size: 80%; }
+
+#djangocms-plugins pre, #djangocms-idiomas pre, #djangocms-plugins-3 pre {
+  font-size: 50%; }
 
 /* Reducir texto */
 #bloques-plugins p {
