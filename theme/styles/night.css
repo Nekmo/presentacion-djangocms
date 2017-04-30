@@ -22,7 +22,7 @@ body {
 
 #impress {
   font-family: "Open Sans", sans-serif;
-  font-size: 30px;
+  font-size: 45px;
   font-weight: normal;
   letter-spacing: -0.02em;
   color: #eee;
@@ -38,10 +38,10 @@ body {
   color: #db85ca; }
 
 #impress strong {
-  color: #db6666; }
+  color: #ece35a; }
 
 #impress em {
-  color: #ece35a; }
+  color: #E81D62; }
 
 /*********************************************
  * HEADERS

@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* Reducir títulos */
+#djangocms-contenido h1, #django-ofrece h1,
+#edicion-contenido h1, #djangocms-undo h1, #djangocms-probar h1,
+#ejemplo-salt h1 {
+  font-size: 250%; }
+
+/* Reducir títulos y texto todavía más */
+#bloques-plugins h1, #djangocms-menus h1, #djangocms-idiomas h1,
+#djangocms-plugins h1, #djangocms-apphooks h1 {
+  font-size: 200%; }
+
+#bloques-plugins p, #bloques-plugins li, #djangocms-menus p, #djangocms-menus li, #djangocms-idiomas p, #djangocms-idiomas li,
+#djangocms-plugins p,
+#djangocms-plugins li, #djangocms-apphooks p, #djangocms-apphooks li {
+  font-size: 90%; }
+
+/* Reducir texto */
+#bloques-plugins p {
+  font-size: 60%; }
+
+#django-cms-webs h1 {
+  font-size: 220%; }
+
+#django-cms-webs table {
+  width: 100%; }
+
+#django-cms-caracteristicas h1 + h1, #por-que-django-cms h1 + h1 {
+  font-size: 300%; }
+
+#django-cms-caracteristicas h1, #por-que-django-cms h1 {
+  font-size: 260%; }
+
+#django-falta-cms {
+  width: auto;
+  font-size: 300%; }
+
+#django-programadores {
+  width: auto; }
+  #django-programadores h1 {
+    font-size: 250%; }
+
+#cms-magia p {
+  margin-bottom: 0; }
+
+#cms-magia p + p {
+  margin-top: 0;
+  margin-bottom: 1em; }
+
+#framework {
+  width: auto; }
+  #framework p {
+    margin-top: 0;
+    margin-bottom: 0; }
+  #framework p + p {
+    margin-bottom: 1em; }
+
+#django-webs-2 p {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+#django-webs-2 tr:nth-child(1) td:nth-child(2) {
+  font-size: 70%; }

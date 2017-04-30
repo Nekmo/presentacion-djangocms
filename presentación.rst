@@ -1,7 +1,7 @@
 .. title: DjangoCMS
 
 :data-transition-duration: 500
-:css: css/presentation.css
+:css: styles/presentacion.css
 
 
 ----
@@ -22,7 +22,7 @@ Sistema de CMS para Django
 
 .. image:: imgs/django_logo.png
 
-Framework de desarrollo web en Python.
+**Framework de desarrollo web en Python.**
 
 (es decir, te toca picar código).
 
@@ -38,7 +38,7 @@ Para desarrolladores
 
 Django permite a los **PROGRAMADORES** crear sitios web profesionales en muy poco tiempo.
 
-(ayuda a programar webs a medida)
+*(ayuda a programar webs a medida)*
 
 .. note::
 
@@ -62,9 +62,11 @@ Pero... ¿y Django CMS? ¿Los CMS no eran *"automágicos"* y no necesitas progra
 
 :id: cms-magia
 
-Los **CMS** no son *magia*, sino **gestores de contenido** (Content Management System).
+Los **CMS** no son *magia*, sino **gestores de contenido**
 
-Pero ya llegaremos a eso...
+(Content Management System).
+
+*Pero ya llegaremos a eso...*
 
 .. note::
 
@@ -79,9 +81,9 @@ Framework
 =========
 Y eso significa...
 
-Herramientas unificadas y normas de trabajo para un correcto desarrollo.
+**Herramientas unificadas y normas de trabajo para un correcto desarrollo.**
 
-(es decir, programar sin crear un frankenstein con snippets de Stack Overflow).
+*(es decir, programar sin crear un frankenstein con snippets de Stack Overflow)*.
 
 .. note::
 
@@ -110,7 +112,7 @@ Ventajas
 
 Por tanto:
 
-Django (y Django CMS) son una buena solución cuando necesitas una web profesional a medida.
+Django *(y Django CMS)* son una buena solución cuando necesitas una web **profesional a medida**.
 
 Y algunos ejemplos son:
 
@@ -135,7 +137,7 @@ Firefox                           Disqus                                 Bitbuck
 Qué ofrece Django
 =================
 
-* Patrón Modelo-Vista-Controlador (MVC) con:
+* Patrón **Modelo-Vista-Controlador** (MVC) con:
 
   * Sistema **ORM** propio.
   * Lenguaje de **plantillas** HTML propio.
@@ -153,10 +155,10 @@ Qué ofrece Django
 
 :id: django-ofrece-2
 
-* **Localización** (l10n) e **Internacionalización** (i18n)
+* **Localización** *(l10n)* e **Internacionalización** *(i18n)*
 * **Middleware**, que controla la entrada y salida.
 * Sistema de **usuarios y permisos**.
-* Medidas de **seguridad** integradas (XSS, CSRF, SQL Inj., clickjacking...).
+* Medidas de **seguridad** integradas *(XSS, CSRF, SQL Inj., clickjacking...)*.
 * Panel de **administración** de datos.
 
 ----
@@ -235,8 +237,13 @@ Edición de contenido
 
 ----
 
-Por qué Django CMS
-==================
+:id: por-que-django-cms
+
+Por qué
+=======
+
+Django CMS
+----------
 
 ¿Y no otro CMS para Django, como *Wagtail* o *Mezzanine*?
 
@@ -252,8 +259,11 @@ Por qué Django CMS
 
 :id: django-cms-caracteristicas
 
-Qué incluye Django CMS
-======================
+Qué incluye
+===========
+
+Django CMS
+----------
 
 ----
 
@@ -262,9 +272,18 @@ Qué incluye Django CMS
 Gestión y creación de páginas
 -----------------------------
 
+* Aquí es donde se puecen **crear, borrar y modificar** páginas.
+* Las páginas pueden ser de **contenido** o **Apphooks** (ya hablaremos de ellos).
+* La gestión de páginas determina qué será **visible** por los usuarios.
+* También determina el orden y lo que aparece en **el menú**.
+
+----
+
+:id: djangocms-menus-2
+
 .. raw:: html
 
-    <video loop data-for="djangocms-menus">
+    <video loop data-for="djangocms-menus-2">
         <source src="resources/djangocms_menus.mkv" type="video/mp4">
     </video>
 
@@ -275,9 +294,16 @@ Gestión y creación de páginas
 Borradores y publicación de contenido
 -------------------------------------
 
+* Al editar una página, ésta queda como **borrador** hasta que la publicamos.
+* Podemos dejar la página como borrador, y establecer una **fecha de publicación**.
+
+----
+
+:id: djangocms-contenido-2
+
 .. raw:: html
 
-    <video loop data-for="djangocms-contenido">
+    <video loop data-for="djangocms-contenido-2">
         <source src="resources/djangocms_contenido.mkv" type="video/mp4">
     </video>
 
@@ -288,9 +314,16 @@ Borradores y publicación de contenido
 Sistema de versiones
 --------------------
 
+* Tras cualquier cambio, podemos ir a una **versión anterior** de la página.
+* También es posible **revertir los cambios**.
+
+----
+
+:id: djangocms-undo-2
+
 .. raw:: html
 
-    <video loop data-for="djangocms-undo">
+    <video loop data-for="djangocms-undo-2">
         <source src="resources/djangocms_undo.mkv" type="video/mp4">
     </video>
 
@@ -301,9 +334,17 @@ Sistema de versiones
 Páginas en diferentes idiomas
 -----------------------------
 
+* Una página de contenido puede encontrarse en **tantos idiomas** como estén configurados.
+* Es posible configurar el comportamiento si la **traducción no existe** *(404, redirección...)*.
+* Para hacer una traducción, se crea una **nueva página** en el idioma, y se **copia el contenido** de otro idioma.
+
+----
+
+:id: djangocms-idiomas-2
+
 .. raw:: html
 
-    <video loop data-for="djangocms-idiomas">
+    <video loop data-for="djangocms-idiomas-2">
         <source src="resources/djangocms_idiomas.mkv" type="video/mp4">
     </video>
 
@@ -314,9 +355,18 @@ Páginas en diferentes idiomas
 Uso de plugins
 --------------
 
+* Los plugins son el equivalente a los **widgets** de otros sistemas.
+* Se puede poner plugins en los espacios definidos por el usuario llamados **placeholders**.
+* Es fácil **crear nuevos plugins**, y éstos pueden **interactuar** con el contenido de la página.
+* Un plugin puede **contener otros plugins**. Por ejemplo, un plugin de panel de alerta contiene botones, texto...
+
+----
+
+:id: djangocms-plugins-2
+
 .. raw:: html
 
-    <video loop data-for="djangocms-plugins">
+    <video loop data-for="djangocms-plugins-2">
         <source src="resources/djangocms_plugins.mkv" type="video/mp4">
     </video>
 
@@ -327,11 +377,34 @@ Uso de plugins
 Uso de Apphooks
 ---------------
 
+* Son **aplicaciones** preparadas para insertarse en el sitio por el usuario.
+* Algunos ejemplos son aplicaciones de *blog*, *comunidad*, *ofertas de trabajo*...
+* Es posible tener varias veces integrada **la misma app** en el mismo sitio.
+* Los Apphooks se integran fácilmente en el menú, y pueden tener **submenús**.
+
+----
+
+:id: djangocms-apphooks-2
+
 .. raw:: html
 
-    <video loop data-for="djangocms-apphooks">
+    <video loop data-for="djangocms-apphooks-2">
         <source src="resources/djangocms_apphooks.mkv" type="video/mp4">
     </video>
+
+----
+
+:id: djangocms-apphooks-3
+
+Algunos ejemplos
+----------------
+
+* `Github:Aldryn/Newsblog <https://github.com/aldryn/aldryn-newsblog>`_
+* `Github:Aldryn/Forms <https://github.com/aldryn/aldryn-forms>`_
+* `Github:Aldryn/People <https://github.com/aldryn/aldryn-people>`_
+* `Github:Aldryn/Jobs <https://github.com/aldryn/aldryn-jobs>`_
+* `Github:Aldryn/Events <https://github.com/aldryn/aldryn-events>`_
+* `Github:Aldryn/FAQ <https://github.com/aldryn/aldryn-faq>`_
 
 ----
 
@@ -369,6 +442,35 @@ Quiénes confían en Django CMS...
 
 ----
 
+:id: ejemplo-salt
+
+Ejemplo: Salt
+=============
+
 :id: django-cms-salt
 
 .. image:: imgs/salt.png
+
+----
+
+:id: mas-ejemplos
+
+Más ejemplos en:
+================
+
+https://www.django-cms.org/en/case-studies/
+
+----
+
+:id: end
+
+¡Muchas gracias a todos!
+========================
+
+* **Sitio web:** http://nekmo.com
+* **Email:** contacto@nekmo.com
+* **Telegram:** @nekmo
+* **Twitter:** @nekmocom
+
+.. note::
+    Muchas gracias. Por si queréis hablar conmigo, podéis hacerlo por estos medios, o luego al final.
