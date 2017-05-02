@@ -32,6 +32,8 @@ Sistema de CMS para Django
 ----
 
 :id: django-programadores
+:data-x: r0
+:data-y: r1600
 
 Para desarrolladores
 --------------------
@@ -48,6 +50,9 @@ Django permite a los **PROGRAMADORES** crear sitios web profesionales en muy poc
 ----
 
 :id: django-magia
+:data-x: r1600
+:data-y: r0
+:data-scale: 2
 
 Pero... ¿y Django CMS? ¿Los CMS no eran *"automágicos"* y no necesitas programar nada?
 
@@ -61,6 +66,10 @@ Pero... ¿y Django CMS? ¿Los CMS no eran *"automágicos"* y no necesitas progra
 ----
 
 :id: cms-magia
+:data-scale: 1
+:data-rotate: 90
+:data-x: r0
+:data-y: r1600
 
 Los **CMS** no son *magia*, sino **gestores de contenido**
 
@@ -76,6 +85,8 @@ Los **CMS** no son *magia*, sino **gestores de contenido**
 ----
 
 :id: framework
+:data-x: r1600
+:data-y: r0
 
 Framework
 =========
@@ -93,6 +104,8 @@ Y eso significa...
 ----
 
 :id: framework-ventajas
+:data-x: r0
+:data-y: r1600
 
 Ventajas
 --------
@@ -109,6 +122,8 @@ Ventajas
 ----
 
 :id: django-webs
+:data-x: r-1600
+
 
 Por tanto:
 
@@ -122,6 +137,8 @@ Y algunos ejemplos son:
 ----
 
 :id: django-webs-2
+:data-x: r-1600
+:data-y: r0
 
 ================================  =====================================  ================================
 Nasa                              Washington Post                        Pinterest
@@ -133,6 +150,7 @@ Firefox                           Disqus                                 Bitbuck
 ----
 
 :id: django-ofrece
+:data-z: r3000
 
 Qué ofrece Django
 =================
@@ -154,6 +172,8 @@ Qué ofrece Django
 ----
 
 :id: django-ofrece-2
+:data-x: r-1000
+:data-z: r0
 
 * **Localización** *(l10n)* e **Internacionalización** *(i18n)*
 * **Middleware**, que controla la entrada y salida.
@@ -164,6 +184,9 @@ Qué ofrece Django
 ----
 
 :id: django-falta
+:data-rotate: 0
+:data-y: r3500
+:data-z: 0
 
 Pero falta algo...
 ==================
@@ -174,6 +197,8 @@ Pero falta algo...
 ----
 
 :id: django-falta-cms
+:data-x: r1600
+:data-y: r0
 
 CMS
 ===
@@ -184,6 +209,11 @@ CMS
 ----
 
 :id: django-cms
+:data-x: r0
+:data-y: r1000
+:data-z: r1600
+:data-rotate: 20
+:data-scale: 3
 
 Django CMS
 ==========
@@ -195,6 +225,11 @@ Django CMS
 ----
 
 :id: menu
+:data-x: r3000
+:data-y: r0
+:data-z: 0
+:data-rotate: 0
+:data-scale: 1
 
 Menú
 ====
@@ -238,6 +273,9 @@ Edición de contenido
 ----
 
 :id: por-que-django-cms
+:data-x: r0
+:data-y: r1600
+
 
 Por qué
 =======
@@ -249,6 +287,11 @@ Django CMS
 
 ----
 
+:id: por-que-django-cms-2
+:data-x: r2000
+:data-y: r0
+:data-rotate-y: r60
+
 * Gran soporte para **internacionalización**.
 * Muy **extensible** y **modular**.
 * Aprovecha y **no sustituye** a Django.
@@ -258,6 +301,9 @@ Django CMS
 ----
 
 :id: django-cms-caracteristicas
+:data-x: r0
+:data-y: r1600
+:data-rotate-y: 0
 
 Qué incluye
 ===========
@@ -268,6 +314,8 @@ Django CMS
 ----
 
 :id: djangocms-menus
+:data-x: r1600
+:data-y: r0
 
 Gestión y creación de páginas
 -----------------------------
@@ -280,6 +328,8 @@ Gestión y creación de páginas
 ----
 
 :id: djangocms-menus-2
+:data-x: r0
+:data-y: r1600
 
 .. raw:: html
 
@@ -290,6 +340,8 @@ Gestión y creación de páginas
 ----
 
 :id: djangocms-contenido
+:data-x: r1600
+:data-y: r-1600
 
 Borradores y publicación de contenido
 -------------------------------------
@@ -300,6 +352,8 @@ Borradores y publicación de contenido
 ----
 
 :id: djangocms-contenido-2
+:data-x: r0
+:data-y: r1600
 
 .. raw:: html
 
@@ -310,6 +364,8 @@ Borradores y publicación de contenido
 ----
 
 :id: djangocms-undo
+:data-x: r1600
+:data-y: r-1600
 
 Sistema de versiones
 --------------------
@@ -320,6 +376,8 @@ Sistema de versiones
 ----
 
 :id: djangocms-undo-2
+:data-x: r0
+:data-y: r1600
 
 .. raw:: html
 
@@ -330,6 +388,8 @@ Sistema de versiones
 ----
 
 :id: djangocms-idiomas
+:data-x: r1600
+:data-y: r-1600
 
 Páginas en diferentes idiomas
 -----------------------------
@@ -341,6 +401,8 @@ Páginas en diferentes idiomas
 ----
 
 :id: djangocms-idiomas-2
+:data-x: r0
+:data-y: r1600
 
 .. raw:: html
 
@@ -351,6 +413,8 @@ Páginas en diferentes idiomas
 ----
 
 :id: djangocms-plugins
+:data-x: r1600
+:data-y: r-1600
 
 Uso de plugins
 --------------
@@ -363,6 +427,8 @@ Uso de plugins
 ----
 
 :id: djangocms-plugins-2
+:data-x: r0
+:data-y: r1600
 
 .. raw:: html
 
@@ -373,6 +439,8 @@ Uso de plugins
 ----
 
 :id: djangocms-plugins-3
+:data-x: r0
+:data-y: r1600
 
 Placeholder
 ===========
@@ -380,23 +448,17 @@ Permite definir dónde irán los plugins *(bloques, widgets)*.
 
 .. code:: htmldjango
 
-     {% block content %}
-     <div class="jumbotron">
-         {% placeholder "feature" %}
-     </div>
-     <div>
+     <div id="content">
          {% placeholder "content" %}
      </div>
-     <div>
-         {% placeholder "splashbox" %}
+     <div id="sidebar">
+         {% static_placeholder "sidebar" %}
      </div>
-    {% endblock content %}
 
-    {% block footer %}
+    ...
     <div id="footer">
         {% static_placeholder "footer" %}
     </div>
-    {% endblock %}
 
 
 .. note::
@@ -405,6 +467,9 @@ Permite definir dónde irán los plugins *(bloques, widgets)*.
 ----
 
 :id: djangocms-apphooks
+:data-x: r1600
+:data-y: r-3200
+
 
 Uso de Apphooks
 ---------------
