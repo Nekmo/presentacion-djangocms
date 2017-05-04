@@ -99,7 +99,7 @@ Y eso significa...
 .. note::
 
     Volviendo a Django con los frameworks, un framework es un conjunto de herramientas
-    unificadas para el desarrollo.
+    unificadas y métodos de trabajo para el desarrollo.
 
 ----
 
@@ -132,7 +132,8 @@ Django *(y Django CMS)* son una buena solución cuando necesitas una web **profe
 Y algunos ejemplos son:
 
 .. note::
-    Y como muestra de su éxito, aquí tenéis algunos sitios que usan Django:
+    Por tanto, Django, y Django CMS por ende, es una buena solución para crear webs desde cero. Y como muestra de su
+    éxito, aquí tenéis algunos sitios que usan Django:
 
 ----
 
@@ -221,6 +222,41 @@ Django CMS
 .. note::
     Django CMS. Completa a Django como framework con herramientas para la gestión de contenido.
     Como por ejemplo ...
+
+
+----
+
+:id: djangocms-usuario
+
+:data-x: r3000
+:data-y: r0
+:data-z: 0
+:data-rotate: 0
+:data-scale: 1
+
+.. raw:: html
+
+    <video loop data-for="djangocms-usuario">
+        <source src="resources/djangocms_usuario.mkv" type="video/mp4">
+    </video>
+
+
+----
+
+:id: djangocms-admin
+
+:data-x: r3000
+:data-y: r0
+:data-z: 0
+:data-rotate: 0
+:data-scale: 1
+
+.. raw:: html
+
+    <video loop data-for="djangocms-admin">
+        <source src="resources/djangocms_admin.mkv" type="video/mp4">
+    </video>
+
 
 ----
 
@@ -410,6 +446,7 @@ Páginas en diferentes idiomas
         <source src="resources/djangocms_idiomas.mkv" type="video/mp4">
     </video>
 
+
 ----
 
 :id: djangocms-plugins
@@ -482,6 +519,8 @@ Uso de Apphooks
 ----
 
 :id: djangocms-apphooks-2
+:data-x: r0
+:data-y: r1600
 
 .. raw:: html
 
@@ -492,6 +531,8 @@ Uso de Apphooks
 ----
 
 :id: djangocms-apphooks-3
+:data-x: r0
+:data-y: r1600
 
 Algunos ejemplos
 ----------------
@@ -502,6 +543,31 @@ Algunos ejemplos
 * `Github:Aldryn/Jobs <https://github.com/aldryn/aldryn-jobs>`_
 * `Github:Aldryn/Events <https://github.com/aldryn/aldryn-events>`_
 * `Github:Aldryn/FAQ <https://github.com/aldryn/aldryn-faq>`_
+
+----
+
+
+:id: djangocms-wizard
+:data-x: r1600
+:data-y: r-1600
+
+Wizard (crear página)
+---------------------
+
+* Permite **crear páginas** de contenido o de los diferentes AppHooks.
+* Podemos hacer nuestros **propios wizard** para facilitar crear contenido.
+
+----
+
+:id: djangocms-wizard-2
+:data-x: r0
+:data-y: r1600
+
+.. raw:: html
+
+    <video loop data-for="djangocms-wizard-2">
+        <source src="resources/djangocms_wizard.mkv" type="video/mp4">
+    </video>
 
 ----
 
