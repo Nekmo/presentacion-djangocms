@@ -572,6 +572,12 @@ Wizard (crear página)
 ----
 
 :id: djangocms-probar
+:data-x: r-5000
+:data-y: r0
+:data-z: 3000
+:data-rotate-y: 30
+:data-scale: 3
+
 
 Cómo probar Django CMS
 ======================
@@ -583,6 +589,8 @@ Cómo probar Django CMS
 ----
 
 :id: aldryn-feature-video
+:data-x: r0
+:data-y: r-4000
 
 .. raw:: html
 
@@ -594,6 +602,7 @@ Cómo probar Django CMS
 ----
 
 :id: django-cms-webs
+:data-scale: 1
 
 Quiénes confían en Django CMS...
 ================================
@@ -606,6 +615,10 @@ Quiénes confían en Django CMS...
 ----
 
 :id: ejemplo-salt
+:data-x: r1600
+:data-y: r0
+:data-z: 0
+:data-rotate-y: 30
 
 Ejemplo: Salt
 =============
@@ -617,6 +630,9 @@ Ejemplo: Salt
 ----
 
 :id: mas-ejemplos
+:data-x: r0
+:data-y: r1600
+
 
 Más ejemplos en:
 ================
@@ -626,6 +642,9 @@ https://www.django-cms.org/en/case-studies/
 ----
 
 :id: end
+:data-x: r6000
+:data-y: r-3000
+:data-rotate: 270
 
 ¡Muchas gracias a todos!
 ========================
