@@ -11,7 +11,8 @@
 
 /* Reducir títulos y texto todavía más */
 #bloques-plugins, #djangocms-menus,
-#djangocms-apphooks, #djangocms-wizard {
+#djangocms-apphooks, #djangocms-wizard,
+#convence-django {
     h1 {
         font-size: 200%;
     }
@@ -22,7 +23,8 @@
 }
 
 /* Reducir títulos y texto incluso más */
-#djangocms-plugins, #djangocms-idiomas, #djangocms-plugins-3 {
+#djangocms-plugins, #djangocms-idiomas, #djangocms-plugins-3,
+#presentacion-url {
     h1 {
         font-size: 180%;
     }
@@ -116,4 +118,24 @@
     tr:nth-child(1) td:nth-child(2) {
         font-size: 70%;
     }
+}
+
+
+#convence-django {
+    img {
+        width: 60%;
+    }
+}
+
+#impress video {
+    width: 100%;
+}
+
+/* Vídeos */
+#djangocms-usuario, #djangocms-admin, #djangocms-menus-2, #djangocms-contenido-2,
+#djangocms-undo-2, #djangocms-idiomas-2, #djangocms-plugins-2, #djangocms-apphooks-2,
+#djangocms-wizard-2 {
+    min-width: 800px;
+    width: 60vw;
+    max-height: 95vh;
 }

@@ -184,6 +184,17 @@ Qué ofrece Django
 
 ----
 
+:id: convence-django
+
+
+¿Os convence Django?
+--------------------
+
+.. image:: imgs/eyebrows.gif
+
+
+----
+
 :id: django-falta
 :data-rotate: 0
 :data-y: r3500
@@ -220,8 +231,8 @@ Django CMS
 ==========
 
 .. note::
-    Django CMS. Completa a Django como framework con herramientas para la gestión de contenido.
-    Como por ejemplo ...
+    Por fin, ya empiezo con Django CMS. Perdonad la espera. Para introduciros, os enseño
+    primero una web construida con Django CMS, desde el punto de vista del usuario.
 
 
 ----
@@ -241,6 +252,15 @@ Django CMS
     </video>
 
 
+.. note::
+    Aquí podéis la portada, con secciones diferenciadas y contenido dinámico.
+    También tenéis aplicaciones como blog, todas opcionales, y que tenéis que poner
+    vosotros mismos. Como podéis ver hay widgets, o como llamamos nosotros, plugins
+    a la derecha. También tenéis una App para eventos con un calendario, un FAQ,
+    o un listado de personas, que son los que crean contenido y las entradas del blog.
+    -- Ahora lo veremos desde el punto de vista del administrador.
+
+
 ----
 
 :id: djangocms-admin
@@ -258,6 +278,17 @@ Django CMS
     </video>
 
 
+.. note::
+    Para acceder al modo admin, ponemos en la url el parámetro edit. Aparecerá arriba
+    la opción para logearse. Pulsamos, y nos conectamos usando un usuario local. En modo
+    admin, todos los elementos son editables. Aparecerá un tooltip avisándonos de ello
+    y podemos editarlo con doble clicl . Los elementos dinámicos también son editables
+    de esta misma forma como podéis ver. Los cambios no se aplican para los usuarios hasta
+    que confirmamos. Incluso el menú de arriba es editable así. Si véis los elementos de
+    la derecha, que son también plugins, podemos añadir otro más desde el apartado
+    "structure". Añadiremos un calendario.
+
+
 ----
 
 :id: menu
@@ -272,8 +303,13 @@ Menú
 
 .. image:: imgs/menus.png
 
-.. note:: Django CMS nos incluye un sistema para construir menús para nuestras apps. Con
-    submenús y mucho más.
+.. note::
+    Vale. Hemos visto muchas cosas en este vistazo rápido. Ahora lo veremos con detalle,
+    empezando por el menú. Si os fijáis, Django CMS incluye un menú, el cual puede tener
+    incluso sub-elementos. Es editable desde Django CMS y podremos añadir nuestras propias
+    páginas de contenido o aplicaciones a este menú. El menú puede ponerse donde se quiera
+    en el template, incluso más de un menú.
+
 
 ----
 
@@ -286,9 +322,10 @@ Bloques para plugins
 
 .. image:: imgs/bloques-plugins.png
 
-.. note:: En vez de widgets, como se llamarían en otros CMS, Django CMS tiene plugins. Éstos
+.. note::
+    En vez de widgets, como se llamarían en otros CMS, Django CMS tiene plugins. Éstos
     se colocan en secciones llamadas placeholders, que podremos poner donde queramos en
-    nuestros diseños. Los plugins pueden añadirse, reordenarse y quitarse a voluntad.
+    nuestros templates. Los plugins pueden añadirse, reordenarse y quitarse a voluntad.
 
 ----
 
@@ -303,8 +340,10 @@ Edición de contenido
         <source src="resources/djangocms_editar.mkv" type="video/mp4">
     </video>
 
-.. note:: Poniendo el contenido en un bloque específico en el template, éste será modificable
-    en modo administrador.
+.. note::
+    Como se ha visto antes, haciendo doble clic en un elemento, puede modificarse. El
+    contenido que puede modificarse así, es el de los plugins, o de contenido de modelos
+    de Django que hemos dicho previamente que es editable de esta forma.
 
 ----
 
@@ -373,6 +412,10 @@ Gestión y creación de páginas
         <source src="resources/djangocms_menus.mkv" type="video/mp4">
     </video>
 
+.. note::
+    Por ejemplo aquí estamos despublicando una página al público. Ahora estamos
+    quitándola del menú, y como se puede ver, se  pueden reordenar o incluso agrupar.
+
 ----
 
 :id: djangocms-contenido
@@ -397,6 +440,10 @@ Borradores y publicación de contenido
         <source src="resources/djangocms_contenido.mkv" type="video/mp4">
     </video>
 
+.. note::
+    En este caso añadiremos una nueva página de contenido y luego la editamos. Hasta que
+    no confirmamos que queremos publicarla, los usuarios normales no podrán verla.
+
 ----
 
 :id: djangocms-undo
@@ -420,6 +467,10 @@ Sistema de versiones
     <video loop data-for="djangocms-undo-2">
         <source src="resources/djangocms_undo.mkv" type="video/mp4">
     </video>
+
+.. note::
+    Ahora imaginemos que metemos la pata editando un contenido. Podremos revertir
+    los cambios usando las fechas del panel superior, o incluso revertir los cambios.
 
 ----
 
@@ -446,6 +497,10 @@ Páginas en diferentes idiomas
         <source src="resources/djangocms_idiomas.mkv" type="video/mp4">
     </video>
 
+.. note::
+    Podemos configurar el comportamiento si la página de un idioma no está. En este caso, da un 404.
+    Creamos la página en el idioma. Ahora, copiamos todo el contenido de la versión en inglés, y
+    lo traducimos.
 
 ----
 
@@ -473,6 +528,13 @@ Uso de plugins
         <source src="resources/djangocms_plugins.mkv" type="video/mp4">
     </video>
 
+.. note::
+    Podemos ver los plugins usados en esta página en la sección estructura. Añadimos un nuevo plugin,
+    que es un row a 2 columnas de Bootstrap. Cambiamos su posición, y metemos dentro otro plugin, un
+    panel de Bootstrap también, Metemos en el titular texto, y de contenido un botón. Añadimos en la
+    otra columna un mapa. Decir, que todo el contenido en Django CMS, son plugins, y se añaden como
+    tales.
+
 ----
 
 :id: djangocms-plugins-3
@@ -499,7 +561,8 @@ Permite definir dónde irán los plugins *(bloques, widgets)*.
 
 
 .. note::
-    Los placeholder y placeholder_static permiten definir dónde irán los plugins en nuestra página. El argumento entregado define el identificador de placeholder, que permite reutilizarlos entre templates.
+    Los placeholder y placeholder_static permiten definir dónde irán los plugins en nuestra página.
+    El argumento entregado define el identificador de placeholder, que permite reutilizarlos entre templates.
 
 ----
 
@@ -527,6 +590,12 @@ Uso de Apphooks
     <video loop data-for="djangocms-apphooks-2">
         <source src="resources/djangocms_apphooks.mkv" type="video/mp4">
     </video>
+
+.. note::
+    Aquí creamos una nueva página, que no será de contenido. Luego, tras crearla, vamos
+    a sus parámetros avanzados y decimos que queremos que sea una App, en este caso de
+    blog. Estas Apps pueden requerir de parámetros adicionales, pero yo los tengo ya
+    hechos para ahorrar tiempo.
 
 ----
 
@@ -569,6 +638,12 @@ Wizard (crear página)
         <source src="resources/djangocms_wizard.mkv" type="video/mp4">
     </video>
 
+.. note::
+
+    Para terminar, Django CMS incluye una forma de crear contenido fácil
+    mediante asistentes. Aquí podéis ver los ya disponibles. Podéis crear los
+    vuestros propios.
+
 ----
 
 :id: djangocms-probar
@@ -598,6 +673,9 @@ Cómo probar Django CMS
         <source src="resources/aldryn_feature_video.mp4" type="video/mp4">
     </video>
 
+.. note::
+    Este es un ejemplo de cómo funciona Divio Cloud. Aquí podéis crear vuestros
+    proyectos y lanzarlos. Decir, que a mí no me pagan para esto.
 
 ----
 
@@ -656,3 +734,12 @@ https://www.django-cms.org/en/case-studies/
 
 .. note::
     Muchas gracias. Por si queréis hablar conmigo, podéis hacerlo por estos medios, o luego al final.
+
+----
+
+:id: presentacion-url
+
+Si os ha gustado, dadle una ★ en Github!
+----------------------------------------
+
+`Github:Nekmo/presentacion-djangocms <https://github.com/Nekmo/presentacion-djangocms>`_
