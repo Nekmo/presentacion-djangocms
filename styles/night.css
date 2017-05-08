@@ -1,0 +1,246 @@
+/**
+ * Black theme for reveal.js.
+ *
+ * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic);
+@font-face {
+  font-family: Yellowtail-Regular;
+  src: url(../fonts/Yellowtail-Regular.ttf); }
+
+@font-face {
+  font-family: ShareTechMono-Regular;
+  src: url(../fonts/ShareTechMono-Regular.ttf); }
+
+/*********************************************
+ * GLOBAL STYLES
+ *********************************************/
+body {
+  background: #103E2E;
+  background-color: #103E2E; }
+
+#impress {
+  font-family: "Open Sans", sans-serif;
+  font-size: 45px;
+  font-weight: normal;
+  letter-spacing: -0.02em;
+  color: #eee;
+  text-align: center; }
+
+::selection {
+  color: #fff;
+  background: #e7ad52;
+  text-shadow: none; }
+
+#impress tt {
+  font-family: ShareTechMono-Regular;
+  color: #db85ca; }
+
+#impress strong {
+  color: #ece35a; }
+
+#impress em {
+  color: #E81D62; }
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+#impress h1 {
+  font-size: 3.77em; }
+
+#impress h2 {
+  font-size: 2.11em; }
+
+#impress h3 {
+  font-size: 1.55em; }
+
+#impress h4 {
+  font-size: 1em; }
+
+#impress h1,
+#impress h2,
+#impress h3,
+#impress h4,
+#impress h5,
+#impress h6 {
+  margin: 0 0 20px 0;
+  color: #eee;
+  font-family: "Montserrat", Impact, sans-serif;
+  line-height: 0.9em;
+  letter-spacing: -0.03em;
+  text-transform: none;
+  text-shadow: none; }
+
+#impress h1 {
+  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }
+
+/*********************************************
+ * DEFAULT ELEMENT STYLES
+ *********************************************/
+/* Ensure certain elements are never larger than the slide itself */
+#impress img,
+#impress video,
+#impress iframe {
+  max-width: 95%;
+  max-height: 95%; }
+
+/** Prevents layering issues in certain browser/transition combinations */
+#impress a {
+  position: relative; }
+
+#impress strong,
+#impress b {
+  font-weight: bold; }
+
+#impress em,
+#impress i {
+  font-style: italic; }
+
+#impress ol,
+#impress ul {
+  display: inline-block;
+  text-align: left;
+  margin: 0 0 0 1em; }
+
+#impress ol {
+  list-style-type: decimal; }
+
+#impress ul {
+  list-style-type: disc; }
+
+#impress ul ul {
+  list-style-type: square; }
+
+#impress ul ul ul {
+  list-style-type: circle; }
+
+#impress ul ul,
+#impress ul ol,
+#impress ol ol,
+#impress ol ul {
+  display: block;
+  margin-left: 40px; }
+
+#impress pre {
+  display: block;
+  position: relative;
+  width: 90%;
+  margin: 15px auto;
+  text-align: left;
+  font-size: 0.55em;
+  font-family: monospace;
+  line-height: 1.2em;
+  word-wrap: break-word;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+  font-family: monospace;
+  background: #1d1d1d;
+  padding: 10px; }
+
+/*********************************************
+ * LINKS
+ *********************************************/
+#impress a:not(.image) {
+  color: #e7ad52;
+  text-decoration: none;
+  -webkit-transition: color .15s ease;
+  -moz-transition: color .15s ease;
+  -ms-transition: color .15s ease;
+  -o-transition: color .15s ease;
+  transition: color .15s ease; }
+
+#impress a:not(.image):hover {
+  color: #f3d7ac;
+  text-shadow: none;
+  border: none; }
+
+#impress .roll span:after {
+  color: #fff;
+  background: #d08a1d; }
+
+/*********************************************
+ * IMAGES
+ *********************************************/
+#impress section img {
+  margin: 15px 0px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 4px solid #eee;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -ms-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear; }
+
+#impress a:hover img {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: #e7ad52;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
+
+/*********************************************
+ * BLOCKS
+ *********************************************/
+.quote {
+  font-size: 200%;
+  color: gray;
+  margin: 0;
+  font-family: Yellowtail-Regular; }
+
+.warning {
+  border: 3px solid #f8ca2b;
+  background: #ebed4f;
+  color: black;
+  padding: 5px; }
+  .warning em {
+    color: #c60606 !important; }
+
+/*********************************************
+ * NAVIGATION CONTROLS
+ *********************************************/
+#impress .controls div.navigate-left,
+#impress .controls div.navigate-left.enabled {
+  border-right-color: #e7ad52; }
+
+#impress .controls div.navigate-right,
+#impress .controls div.navigate-right.enabled {
+  border-left-color: #e7ad52; }
+
+#impress .controls div.navigate-up,
+#impress .controls div.navigate-up.enabled {
+  border-bottom-color: #e7ad52; }
+
+#impress .controls div.navigate-down,
+#impress .controls div.navigate-down.enabled {
+  border-top-color: #e7ad52; }
+
+#impress .controls div.navigate-left.enabled:hover {
+  border-right-color: #f3d7ac; }
+
+#impress .controls div.navigate-right.enabled:hover {
+  border-left-color: #f3d7ac; }
+
+#impress .controls div.navigate-up.enabled:hover {
+  border-bottom-color: #f3d7ac; }
+
+#impress .controls div.navigate-down.enabled:hover {
+  border-top-color: #f3d7ac; }
+
+/*********************************************
+ * PROGRESS BAR
+ *********************************************/
+#impress .progress {
+  background: rgba(0, 0, 0, 0.2); }
+
+#impress .progress span {
+  background: #e7ad52;
+  -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -ms-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -o-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
+
+/*********************************************
+ * SLIDE NUMBER
+ *********************************************/
+#impress .slide-number {
+  color: #e7ad52; }
